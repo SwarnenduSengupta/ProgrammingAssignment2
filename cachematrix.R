@@ -5,6 +5,7 @@ makeVector <- function(x = numeric()) {
         x <<- y
         m <<- NULL
     }
+    #original function that was provided
     #returns the vector, x
     get <- function() x
     #sets the mean, m, to mean
